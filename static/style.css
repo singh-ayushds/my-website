@@ -85,4 +85,39 @@ h1 {
 .copy-btn:hover {
   background-color: #555;
 }
+.code-box {
+  background-color: #0d1117; /* Dark GitHub-style background */
+  color: #c9d1d9; /* Soft light text */
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  overflow-y: auto;
+  overflow-x: auto;
+  white-space: pre;
+  max-height: 600px; /* Adjusted height */
+  width: 90%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #21262d;
+  color: #fff;
+  border: 1px solid #30363d;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.2s ease;
+}
+
+.copy-btn:hover {
+  background-color: #30363d;
+}
 
